@@ -14,9 +14,7 @@
   "mrbs": {
     "api":{
       "room": {
-        "getWeekBooking" :{ 
-          "weekList":1
-        }
+        "getWeekBooking" : 1
       }
     }
   }
