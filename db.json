@@ -12,5 +12,7 @@
     "name": "typicode"
   },
   "mrbs": {
+    "api" : {
+    }
   }
 }
