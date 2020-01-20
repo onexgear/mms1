@@ -12,10 +12,5 @@
     "name": "typicode"
   },
   "mrbs": {
-    "api":{
-      "room": {
-        "getWeekBooking" : 1
-      }
-    }
   }
 }
