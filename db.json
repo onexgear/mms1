@@ -52,9 +52,9 @@
         "roomId":2
       }
   ],
-  "getOneBooking":[{
-
-  "id":1,
+  "getOneBooking":[
+    {
+    "id":1,
     "date":"2019-09-02",
     "startTime":"10:00:00",
     "endTime":"10:30:00"
@@ -69,6 +69,7 @@
             "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>"
         }
     ]
-}]
+  }
+  ]
 
 }
