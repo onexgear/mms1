@@ -50,16 +50,6 @@
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":2
-      },
-      { 
-       "id":6,
-       "date":"2019-09-03",
-        "startTime":"16:00:00",
-        "endTime":"16:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
-        "description":"MMS會議室租借系統第3版",
-        "roomId":3
       }
   ]
 
