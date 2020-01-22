@@ -9,7 +9,8 @@
         "createUserId":1,
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
-        "roomId":1
+        "roomId":1,
+        "cycleStatus":false
       },
       { 
        "id":2,
@@ -19,7 +20,8 @@
         "createUserId":1,
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
-        "roomId":3
+        "roomId":3,
+        "cycleStatus":ture
       },
       { 
        "id":3,
@@ -29,7 +31,8 @@
         "createUserId":1,
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
-        "roomId":2
+        "roomId":2,
+        "cycleStatus":false
       },
       { 
        "id":4,
@@ -39,7 +42,8 @@
         "createUserId":1,
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
-        "roomId":2
+        "roomId":2,
+        "cycleStatus":false
       },
       { 
        "id":5,
@@ -49,7 +53,8 @@
         "createUserId":1,
         "createUserName":"Rex",
         "description":"MMS會議室租借系統第3版",
-        "roomId":2
+        "roomId":2,
+        "cycleStatus":true
       }
   ],
   "getOneBooking":[
