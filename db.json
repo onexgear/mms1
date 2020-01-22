@@ -77,7 +77,7 @@
        "roomName":"A3",
        "date":"2019-09-02",
         "startTime":"10:00:00",
-        "endTime":"10:30:00"
+        "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
         "createUserId":1,
         "createUserName":"Wanye"
@@ -87,7 +87,7 @@
        "roomName":"A3",
        "date":"2019-09-03",
         "startTime":"10:00:00",
-        "endTime":"10:30:00"
+        "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
         "createUserId":2,
         "createUserName":"Rex"
@@ -97,7 +97,7 @@
        "roomName":"A3",
        "date":"2019-09-04",
         "startTime":"10:00:00",
-        "endTime":"10:30:00"
+        "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
         "createUserId":3,
         "createUserName":"Leo"
@@ -107,7 +107,7 @@
        "roomName":"A3",
        "date":"2019-09-05",
         "startTime":"10:00:00",
-        "endTime":"10:30:00"
+        "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
         "createUserId":2,
         "createUserName":"Rex"
@@ -117,7 +117,7 @@
        "roomName":"A3",
        "date":"2019-09-06",
         "startTime":"10:00:00",
-        "endTime":"10:30:00"
+        "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
         "createUserId":3,
         "createUserName":"Leo"
