@@ -1,12 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "equipmentList": [
+      {
+        "id":1,
+        "sno":"TGFC1RCS002",
+        "name":"投影機",
+        "parts":"",
+        "storage":"JENNIFER",
+        "status":true
+      },
+      {
+        "id":2,
+        "sno":"TGFC1RCS001",
+        "name":"DELL筆電",
+        "parts":"滑鼠(TGFC1RCS001)",
+        "storage":"3B會議室",
+        "status":true
+      },
+     {
+        "id":3,
+        "sno":"TGFC1RCS003",
+        "name":"ASUS 平板電腦",
+        "parts":"滑鼠-無線(TGFC1RCS005)",
+        "storage":"3A會議室",
+        "status":false
+      }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "roomList":[ 
+      { 
+        "roomId":1,
+        "roomName":"24A-A",
+        "color":"#000000",
+        "status":"true",
+        "remark":"5人會議室"
+      },
+      {
+        "roomId":2,
+        "roomName":"24A-B",
+        "color":"#00FF00",
+        "status":"true",
+        "remark":"10人會議室"
+      },
+      { 
+        "roomId":3,
+        "roomName":"24A-C",
+        "color":"#000000",
+        "status":"true",
+        "remark":"5人會議室"
+      }
   ],
   "profile": {
     "name": "typicode"
