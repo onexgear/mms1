@@ -51,8 +51,8 @@
         "description":"MMS會議室租借系統第3版",
         "roomId":2
       }
-  ],
-  "getOneBooking":[
+  ],[
+  "getOneBooking":[{
 
   "id":1,
     "date":"2019-09-02",
@@ -68,72 +68,6 @@
             "mailType":1,
             "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>"
         }
-    ]],
-  "bookingList":[
-      { 
-       "id":1,
-       "roomName":"A3",
-       "date":"2019-09-02",
-        "startTime":"10:00:00",
-        "endTime":"10:30:00"
-        "description":"MMS會議室租借系統第3版",
-        "createUserId":1,
-        "createUserName":"Wanye"
-      },
-      { 
-       "id":2,
-       "roomName":"A3",
-       "date":"2019-09-03",
-        "startTime":"10:00:00",
-        "endTime":"10:30:00"
-        "description":"MMS會議室租借系統第3版",
-        "createUserId":2,
-        "createUserName":"Rex"
-      },
-      { 
-       "id":3,
-       "roomName":"A3",
-       "date":"2019-09-04",
-        "startTime":"10:00:00",
-        "endTime":"10:30:00"
-        "description":"MMS會議室租借系統第3版",
-        "createUserId":3,
-        "createUserName":"Leo"
-      },
-      { 
-       "id":4,
-       "roomName":"A3",
-       "date":"2019-09-05",
-        "startTime":"10:00:00",
-        "endTime":"10:30:00"
-        "description":"MMS會議室租借系統第3版",
-        "createUserId":2,
-        "createUserName":"Rex"
-      },
-      { 
-       "id":5,
-       "roomName":"A3",
-       "date":"2019-09-06",
-        "startTime":"10:00:00",
-        "endTime":"10:30:00"
-        "description":"MMS會議室租借系統第3版",
-        "createUserId":3,
-        "createUserName":"Leo"
-      }
-  ],"getCycleBooking":[ "id":1,
-    "date":"2019-12-02",
-    "startTime":"10:00:00",
-    "endTime":"10:30:00"
-    "createUserId":1,
-    "description":"MMS會議室租借系統第3版",
-    "roomId":1,
-    "memberIdList":[1,2,3,4],
-    "equipmentIdList":[4,5,6],
-    "mailList":[
-        {
-            "mailType":1,
-            "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>"
-        }
-    ]
+    ]]
 
 }
