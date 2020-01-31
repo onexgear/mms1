@@ -107,17 +107,17 @@
 	"roomList":[{
 						"roomId":1,
 						"roomName":"3B會議室",
-						"roomRemark":"",
+						"roomRemark":""
 			  },
 			  {
 						"roomId":2,
 						"roomName":"24A A會議室",
-						"roomRemark":"",
+						"roomRemark":""
 			  },
 			  {
 						"roomId":3,
 						"roomName":"24A B會議室",
-						"roomRemark":"",
+						"roomRemark":""
 			  }
 	],
     "memberList":[{
