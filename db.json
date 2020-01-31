@@ -261,6 +261,65 @@
 			"startDate":"2019-12-30"
 		}
 	]
-}]
-
+}],
+"ShowOneBooking":[
+	{	
+	"id":1,
+	"date":"2019-09-02",
+    "startTime":"10:00:00",
+	"endTime":"10:30:00"
+	"creatorId":1,
+    "description":"MMS會議室租借系統第3版",
+	"roomId":1,
+	"roomName":"3B會議室",
+    "memberList":[{
+						"id":1,
+						"name":"瑞克斯",
+						"engName":"Rex"
+				  },
+				  {
+				  		"id":2,
+						"name":"安竹",
+						"engName":"Andrew"
+				  }
+				  ],
+	"equipmentIdList":[{
+							"id":1,
+							"sno":"TGFC1SV7230"
+							"name":"投影機",
+							"parts":"延長線",
+							"storage":"Leo"
+						},
+						{
+							"id":2,
+							"sno":"TGFC1KKK333"
+							"name":"筆記型電腦",
+							"parts":"滑鼠",
+							"storage":"Rex"
+						}],
+	"mailList":[
+		{
+			"mailType":1,
+			"mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+			"selected":true
+		},
+			{
+			"mailType":2,
+			"mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+			"selected":true
+		},
+					{
+			"mailType":3,
+			"mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+			"selected":true
+		},
+					{
+			"mailType":4,
+			"mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+			"selected":true
+		}
+	]
+}
+	
+]
 }
