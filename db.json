@@ -158,51 +158,55 @@
       }
   ],
   "getCycleBooking":[ 
-    {"id":1,
-    "date":"2019-12-02",
+    {	
+	"id":1,
+	"date":"2019-12-02",
     "startTime":"10:00:00",
-    "endTime":"10:30:00",
-    "createUserId":1,
+	"endTime":"10:30:00",
+	"createUserId":1,
     "description":"MMS會議室租借系統第3版",
-    "roomId":1,
+	"roomId":1,
+	"roomRemark":"請於預約前，請行政人員協助完成向大樓的會議室預約。",
     "memberIdList":[
-        {
-            "id":1,
-            "name":"Joho"
-        }
-    ],
-    "equipmentIdList":[
-        {
-            "id":1,
-            "sno":"TGFC1RCS002",
-            "name":"華碩筆電",
-            "parts":"滑鼠(TGFCRCM0001)",
-            "storage":"設備保管處(人)：3B會議室"
-        }
-    ],
-    "mailList":[
-        {
-            "mailType":1,
-            "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>"
-        }
-    ],
-    "cycleDateList":[
-        {    
-            "id":1,
-            "startDate":"2019-12-09"
-        },
-        {    
-            "id":2,
-            "startDate":"2019-12-16"
-        },
-        {    
-            "id":3,
-            "startDate":"2019-12-23"
-        },
-        {    
-            "id":4,
-            "startDate":"2019-12-30"
-        }
-    ]}]
+		{
+			"id":1,
+			"name":"Joho"
+		}
+	],
+	"equipmentIdList":[
+		{
+			"id":1,
+			"sno":"TGFC1RCS002",
+			"name":"華碩筆電",
+			"parts":"滑鼠(TGFCRCM0001)",
+			"storage":"設備保管處(人)：3B會議室"
+		}
+	],
+	"mailList":[
+		{
+			"mailType":1,
+			"mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+			"selected":true
+		}
+	],
+	"cycleDateList":[
+		{	
+			"id":1,
+			"startDate":"2019-12-09"
+		},
+		{	
+			"id":2,
+			"startDate":"2019-12-16"
+		},
+		{	
+			"id":3,
+			"startDate":"2019-12-23"
+		},
+		{	
+			"id":4,
+			"startDate":"2019-12-30"
+		}
+	]
+}]
 
 }
