@@ -21,7 +21,7 @@
         "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":3,
-        "cycleStatus":ture
+        "cycleStatus":true
       },
       { 
        "id":3,
