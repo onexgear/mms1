@@ -103,7 +103,7 @@
 	"endTime":"10:30:00",
 	"creatorId":1,
     "description":"MMS會議室租借系統第3版",
-	"roomId":1
+	"roomId":1,
 	"roomList":[{
 						"roomId":1,
 						"roomName":"3B會議室",
