@@ -165,8 +165,21 @@
     "createUserId":1,
     "description":"MMS會議室租借系統第3版",
     "roomId":1,
-    "memberIdList":[1,2,3,4],
-    "equipmentIdList":[4,5,6],
+    "memberIdList":[
+        {
+            "id":1,
+            "name":"Joho"
+        }
+    ],
+    "equipmentIdList":[
+        {
+            "id":1,
+            "sno":"TGFC1RCS002",
+            "name":"華碩筆電",
+            "parts":"滑鼠(TGFCRCM0001)",
+            "storage":"設備保管處(人)：3B會議室"
+        }
+    ],
     "mailList":[
         {
             "mailType":1,
