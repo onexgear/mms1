@@ -113,8 +113,8 @@
         "startTime":"10:00:00",
         "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
-        "createUserId":1,
-        "createUserName":"Wanye"
+        "creatorId":1,
+        "creatorName":"Wanye"
       },
       { 
        "id":2,
@@ -123,8 +123,8 @@
         "startTime":"10:00:00",
         "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
-        "createUserId":2,
-        "createUserName":"Rex"
+        "creatorId":2,
+        "creatorName":"Rex"
       },
       { 
        "id":3,
@@ -133,8 +133,8 @@
         "startTime":"10:00:00",
         "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
-        "createUserId":3,
-        "createUserName":"Leo"
+        "creatorId":3,
+        "creatorName":"Leo"
       },
       { 
        "id":4,
@@ -143,8 +143,8 @@
         "startTime":"10:00:00",
         "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
-        "createUserId":2,
-        "createUserName":"Rex"
+        "creatorId":2,
+        "creatorName":"Rex"
       },
       { 
        "id":5,
@@ -153,8 +153,8 @@
         "startTime":"10:00:00",
         "endTime":"10:30:00",
         "description":"MMS會議室租借系統第3版",
-        "createUserId":3,
-        "createUserName":"Leo"
+        "creatorId":3,
+        "creatorName":"Leo"
       }
   ],
   "getCycleBooking":[ 
