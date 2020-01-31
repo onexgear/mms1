@@ -6,8 +6,8 @@
        "date":"2019-09-02",
         "startTime":"10:00:00",
         "endTime":"10:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
+        "creatorId":1,
+        "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":1,
         "cycleStatus":false
@@ -17,8 +17,8 @@
        "date":"2019-09-03",
         "startTime":"10:00:00",
         "endTime":"10:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
+        "creatorId":1,
+        "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":3,
         "cycleStatus":ture
@@ -28,8 +28,8 @@
        "date":"2019-09-04",
         "startTime":"10:00:00",
         "endTime":"10:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
+        "creatorId":1,
+        "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":2,
         "cycleStatus":false
@@ -39,8 +39,8 @@
        "date":"2019-09-02",
         "startTime":"11:00:00",
         "endTime":"11:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
+        "creatorId":1,
+        "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":2,
         "cycleStatus":false
@@ -50,8 +50,8 @@
        "date":"2019-09-02",
         "startTime":"15:00:00",
         "endTime":"15:30:00",
-        "createUserId":1,
-        "createUserName":"Rex",
+        "creatorId":1,
+        "creatorName":"Rex",
         "description":"MMS會議室租借系統第3版",
         "roomId":2,
         "cycleStatus":true
@@ -66,12 +66,41 @@
     "createUserId" : 1,
     "description":"MMS會議室租借系統第3版",
     "roomId":1,
-    "memberIdList":[1,2,3,4],
-    "equipmentIdList":[4,5,6],
+    "memberList":[{
+                        "id":1,
+                        "name":"瑞克斯",
+                        "engName":"Rex"
+                  },
+                  {
+                          "id":2,
+                        "name":"安竹",
+                        "engName":"Andrew"
+                  }
+                  ],
+    "equipmentIdList":[{
+                            "id":1,
+                            "sno":"TGFC1SV7230"
+                            "name":"投影機",
+                            "parts":"延長線",
+                            "storage":"Leo"
+                        },
+                        {
+                            "id":2,
+                            "sno":"TGFC1KKK333"
+                            "name":"筆記型電腦",
+                            "parts":"滑鼠",
+                            "storage":"Rex"
+                        }],
     "mailList":[
         {
             "mailType":1,
-            "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>"
+            "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+            "selected":true
+        },
+            {
+            "mailType":4,
+            "mailMessage":"<h3>MMS會議室租借系統第3版-使用說明</h3><br/>-通知信內容-<br/>",
+            "selected":true
         }
     ]
   }
