@@ -133,14 +133,14 @@
 				  ],
 	"equipmentIdList":[{
 							"id":1,
-							"sno":"TGFC1SV7230"
+							"sno":"TGFC1SV7230",
 							"name":"投影機",
 							"parts":"延長線",
 							"storage":"Leo"
 						},
 						{
 							"id":2,
-							"sno":"TGFC1KKK333"
+							"sno":"TGFC1KKK333",
 							"name":"筆記型電腦",
 							"parts":"滑鼠",
 							"storage":"Rex"
