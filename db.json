@@ -2,97 +2,83 @@
 "bookingWeekList":
 [
 	{
-	  "bookingList":
-	  [ 
-	      { 
-	       "id":1,
-	       "date":"2019-09-02",
-		"startTime":"10:00:00",
-		"endTime":"10:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":1,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":2,
-	       "date":"2019-09-03",
-		"startTime":"10:00:00",
-		"endTime":"10:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":3,
-		"cycleStatus":true
-	      },
-	      { 
-	       "id":3,
-	       "date":"2019-09-04",
-		"startTime":"10:00:00",
-		"endTime":"10:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":2,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":4,
-	       "date":"2019-09-02",
-		"startTime":"11:00:00",
-		"endTime":"11:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":2,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":5,
-	       "date":"2019-09-02",
-		"startTime":"15:00:00",
-		"endTime":"15:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":2,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":6,
-	       "date":"2019-09-03",
-		"startTime":"16:00:00",
-		"endTime":"16:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":3,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":7,
-	       "date":"2019-09-04",
-		"startTime":"15:00:00",
-		"endTime":"15:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":1,
-		"cycleStatus":false
-	      },
-	      { 
-	       "id":8,
-	       "date":"2019-09-06",
-		"startTime":"16:00:00",
-		"endTime":"16:30:00",
-		"creatorId":1,
-		"creatorName":"Rex",
-		"description":"MMS會議室租借系統第3版",
-		"roomId":1,
-		"cycleStatus":true
-	      }
-	  ]
+	   "content":[
+		  { 
+		   "id":1,
+		   "roomName":"A3",
+		   "date":"2019-09-02",
+			"startTime":"10:00:00",
+			"endTime":"10:30:00",
+			"description":"MMS會議室租借系統第3版",
+			"creatorId":1,
+			"creatorName":"Wanye"
+		  },
+		  { 
+		   "id":2,
+		   "roomName":"A3",
+		   "date":"2019-09-03",
+			"startTime":"10:00:00",
+			"endTime":"10:30:00",
+			"description":"MMS會議室租借系統第3版",
+			"creatorId":2,
+			"creatorName":"Rex"
+		  },
+		  { 
+		   "id":3,
+		   "roomName":"A3",
+		   "date":"2019-09-04",
+			"startTime":"10:00:00",
+			"endTime":"10:30:00",
+			"description":"MMS會議室租借系統第3版",
+			"creatorId":3,
+			"creatorName":"Leo"
+		  },
+		  { 
+		   "id":4,
+		   "roomName":"A3",
+		   "date":"2019-09-05",
+			"startTime":"10:00:00",
+			"endTime":"10:30:00",
+			"description":"MMS會議室租借系統第3版",
+			"creatorId":2,
+			"creatorName":"Rex"
+		  },
+		  { 
+		   "id":5,
+		   "roomName":"A3",
+		   "date":"2019-09-06",
+			"startTime":"10:00:00",
+			"endTime":"10:30:00",
+			"description":"MMS會議室租借系統第3版",
+			"creatorId":3,
+			"creatorName":"Leo"
+		  }
+	  ],
+	    "pageable": {
+		"sort": {
+		    "sorted": false,
+		    "unsorted": true,
+		    "empty": true
+		},
+		"offset": 0,
+		"pageSize": 10,
+		"pageNumber": 0,
+		"unpaged": false,
+		"paged": true
+	    },
+	    "totalElements": 5,
+	    "last": true,
+	    "totalPages": 1,
+	    "number": 0,
+	    "size": 10,
+	    "sort": {
+		"sorted": false,
+		"unsorted": true,
+		"empty": true
+	    },
+	    "numberOfElements": 5,
+	    "first": true,
+	    "empty": false
 	}
 ],
 "getOneBooking":
