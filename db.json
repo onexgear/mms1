@@ -5,8 +5,8 @@
 	  "bookingList":
 	  [ 
 	      { 
-	       "id":1,
-	       "date":"2019-09-02",
+		   "id":1,
+		   "date":"2019-09-02",
 		"startTime":"10:00:00",
 		"endTime":"10:30:00",
 		"creatorId":1,
@@ -14,7 +14,7 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":false,
-		"selected":true
+		"editStatus":false
 	      },
 	      { 
 	       "id":2,
@@ -26,7 +26,7 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":3,
 		"cycleStatus":true,
-		"selected":true
+		"editStatus":false
 	      },
 	      { 
 	       "id":3,
@@ -38,7 +38,7 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"selected":false
+		"editStatus":false
 	      },
 	      { 
 	       "id":4,
@@ -50,11 +50,11 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"selected":true
+		"editStatus":false
 	      },
 	      { 
-	       "id":5,
-	       "date":"2019-09-02",
+		   "id":5,
+		   "date":"2020-09-02",
 		"startTime":"15:00:00",
 		"endTime":"15:30:00",
 		"creatorId":1,
@@ -62,7 +62,7 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"selected":true
+		"editStatus":true
 	      },
 	      { 
 	       "id":6,
@@ -74,11 +74,11 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":3,
 		"cycleStatus":false,
-		"selected":false
+		"editStatus":false
 	      },
 	      { 
 	       "id":7,
-	       "date":"2019-09-04",
+	       "date":"2020-09-04",
 		"startTime":"15:00:00",
 		"endTime":"15:30:00",
 		"creatorId":1,
@@ -86,11 +86,11 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":false,
-		"selected":true
+		"editStatus":true
 	      },
 	      { 
 	       "id":8,
-	       "date":"2019-09-06",
+	       "date":"2020-09-06",
 		"startTime":"16:00:00",
 		"endTime":"16:30:00",
 		"creatorId":1,
@@ -98,7 +98,7 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":true,
-		"selected":true
+		"editStatus":true
 	      }
 	  ]
 	}
