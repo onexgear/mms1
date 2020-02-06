@@ -266,13 +266,11 @@
 		"mailList":[
 			{
 				"mailType":1,
-				"title":"新增預設信件範本",
 				"message":"請準時開會!",
 				"selected":true
 			},
 			{
 				"mailType":4,
-				"title":"下周取消信件範本",
 				"message":"下周會議臨時取消",
 				"selected":true
 			}
