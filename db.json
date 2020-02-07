@@ -243,10 +243,10 @@
 	{	
 		"id":1,
 		"date":"2019-12-02",
-	    "startTime":"10:00:00",
+	    	"startTime":"10:00:00",
 		"endTime":"10:30:00",
 		"creatorId":1,
-	    "description":"MMS會議室租借系統第3版",
+	    	"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 	    	"memberIdList":[
 			{
@@ -266,12 +266,12 @@
 		"mailList":[
 			{
 				"mailType":1,
-				"message":"請準時開會!",
+				"mailMessage":"請準時開會!",
 				"selected":true
 			},
 			{
 				"mailType":4,
-				"message":"下周會議臨時取消",
+				"mailMessage":"下周會議臨時取消",
 				"selected":true
 			}
 		],
