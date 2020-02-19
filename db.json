@@ -4,9 +4,9 @@
 	{
 	  "bookingList":
 	  [ 
-	      { 
-		   "id":1,
-		   "date":"2019-09-02",
+	  { 
+		"id":1,
+		"date":"2019-09-02",
 		"startTime":"10:00:00",
 		"endTime":"10:30:00",
 		"creatorId":1,
@@ -14,11 +14,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":false,
-		"editStatus":false
-	      },
-	      { 
-	       "id":2,
-	       "date":"2019-09-03",
+		"editStatus":false,
+		"equipment": "EPSON投影機 EB-G7100、ASUS 平板電腦"
+	  },
+	  { 
+	        "id":2,
+	        "date":"2019-09-03",
 		"startTime":"10:00:00",
 		"endTime":"10:30:00",
 		"creatorId":1,
@@ -26,11 +27,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":3,
 		"cycleStatus":true,
-		"editStatus":false
-	      },
-	      { 
-	       "id":3,
-	       "date":"2019-09-04",
+		"editStatus":false,
+                "equipment": "ASUS 平板電腦"
+	  },
+	  { 
+	        "id":3,
+	        "date":"2019-09-04",
 		"startTime":"10:00:00",
 		"endTime":"10:30:00",
 		"creatorId":1,
@@ -38,11 +40,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"editStatus":false
-	      },
-	      { 
-	       "id":4,
-	       "date":"2019-09-02",
+		"editStatus":false,
+                "equipment": ""
+	  },
+	  { 
+	        "id":4,
+	        "date":"2019-09-02",
 		"startTime":"11:00:00",
 		"endTime":"11:30:00",
 		"creatorId":1,
@@ -50,11 +53,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"editStatus":false
-	      },
-	      { 
-		   "id":5,
-		   "date":"2020-09-02",
+		"editStatus":false,
+                "equipment": "ASUS 平板電腦"
+	  },
+	  { 
+	   	"id":5,
+	   	"date":"2020-09-02",
 		"startTime":"15:00:00",
 		"endTime":"15:30:00",
 		"creatorId":1,
@@ -62,11 +66,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":2,
 		"cycleStatus":false,
-		"editStatus":true
-	      },
-	      { 
-	       "id":6,
-	       "date":"2019-09-03",
+		"editStatus":true,
+                "equipment": "EPSON投影機 EB-G710"
+	  },
+	  { 
+	        "id":6,
+	        "date":"2019-09-03",
 		"startTime":"16:00:00",
 		"endTime":"16:30:00",
 		"creatorId":1,
@@ -74,11 +79,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":3,
 		"cycleStatus":false,
-		"editStatus":false
-	      },
-	      { 
-	       "id":7,
-	       "date":"2020-09-04",
+		"editStatus":false,
+                "equipment": "CANON投影機"
+	  },
+	  { 
+	        "id":7,
+	        "date":"2020-09-04",
 		"startTime":"15:00:00",
 		"endTime":"15:30:00",
 		"creatorId":1,
@@ -86,11 +92,12 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":false,
-		"editStatus":true
-	      },
-	      { 
-	       "id":8,
-	       "date":"2020-09-06",
+		"editStatus":true,
+                "equipment": "EPSON投影機 EB-G7100、CANON投影機"
+	  },
+	  { 
+	        "id":8,
+	        "date":"2020-09-06",
 		"startTime":"16:00:00",
 		"endTime":"16:30:00",
 		"creatorId":1,
@@ -98,8 +105,9 @@
 		"description":"MMS會議室租借系統第3版",
 		"roomId":1,
 		"cycleStatus":true,
-		"editStatus":true
-	      }
+		"editStatus":true,
+                "equipment": ""
+	  }
 	  ]
 	}
 ],
